@@ -1,0 +1,24 @@
+.roberto {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  background-color: rgba(239, 167, 109, 0.5);
+  align-items: center;
+  position:relative;
+  top: 150px;
+}
+
+.title {
+  text-align: center;
+}
+
+.roberto p {
+  width: 60%;
+}
+
+#robertoCascade {
+  height: auto;
+  width: 300px;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}

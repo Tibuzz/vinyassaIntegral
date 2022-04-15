@@ -1,0 +1,10 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: flex-start;
+  line-height: 1.5rem;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
