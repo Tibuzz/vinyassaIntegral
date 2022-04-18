@@ -12,6 +12,7 @@ export default function Navbar() {
         <ul>
           <li><a href="#vinyassa">Sobre Vinyassa Integral</a></li>
           <li><a href="#roberto">Sobre Roberto</a></li>
+          <li><a href="#agenda">Agenda</a></li>
           <li><a href="#comentarios">Comentarios</a></li>
           <li>Contacto</li>
         </ul>

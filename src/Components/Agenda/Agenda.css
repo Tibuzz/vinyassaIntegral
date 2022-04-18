@@ -1,15 +1,10 @@
-.vinyassaIntegral {
+.agenda {
   padding-top: 150px;
   background-color: rgba(239, 167, 109, 0.5);
   width: 90%;
-}
-
-
-.title {
   text-align: center;
 }
 
-.vinyassaIntegral p {
-  padding: 2rem 6rem;
-
+.agenda h2 {
+  margin-bottom: 4rem;
 }

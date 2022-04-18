@@ -2,7 +2,6 @@
   padding-top: 150px;
   padding-bottom: 2rem;
   background-color: rgba(239, 167, 109, 0.5);
-  height: 650px;
   width: 90%;
   display: flex;
   flex-direction: column;
@@ -30,6 +29,7 @@
 .commentsDiv {
   overflow: scroll;
   width: 70%;
+  height: 500px;
   /*padding: 1rem;*/
   border: 1px solid black;
   background-color: antiquewhite;
