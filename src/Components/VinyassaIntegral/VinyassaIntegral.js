@@ -2,7 +2,7 @@ import './VinyassaIntegral.css';
 
 export function VinyassaIntegral() {
   return (
-    <div className='vinyassaIntegral'>
+    <div className='vinyassaIntegral' id="vinyassa">
       <h2 className='title'>Vinyassa Integral</h2>
       <p>
         Queremos imaginar el Vinyasa como una práctica integral.

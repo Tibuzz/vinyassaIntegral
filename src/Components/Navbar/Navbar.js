@@ -1,3 +1,4 @@
+
 import logo from './logo_vinyassa.jpg';
 import './Navbar.css';
 
@@ -7,14 +8,14 @@ export default function Navbar() {
       <div className="logo">
         <img src={logo} alt="" />
       </div>
-      <navbar className="navbar">
+      <nav className="navbar">
         <ul>
-          <li>Sobre Vinyassa Integral</li>
-          <li>Sobre Roberto</li>
-          <li>Comentarios</li>
+          <li><a href="#vinyassa">Sobre Vinyassa Integral</a></li>
+          <li><a href="#roberto">Sobre Roberto</a></li>
+          <li><a href="#comentarios">Comentarios</a></li>
           <li>Contacto</li>
         </ul>
-      </navbar>
+      </nav>
     </header>
   )
 }

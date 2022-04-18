@@ -1,0 +1,21 @@
+
+.addComment {
+  background-color: rgb(19, 124, 216);
+  width: 90%;
+  position: relative;
+  top: 150px;
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+}
+
+#textarea {
+  background-color: antiquewhite;
+}
+
+#submit {
+  align-self: flex-end;
+}

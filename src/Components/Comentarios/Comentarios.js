@@ -41,11 +41,11 @@ export function Comentarios() {
     }
   ];
 
-  const comments = comentarios.map(comentario =>{ 
+  const comments = comentarios.map((comentario, i) =>{ 
     return (
-      <div>
-       <p className='content' key={comentario.content}>{comentario.content}</p>
-       <p className='name' key={comentario.name}>{comentario.name}</p>
+      <div className='comments' key={i}>
+       <p className='content'>{comentario.content}</p>
+       <p className='name'>{comentario.name}</p>
       </div>
      )
     });
@@ -54,9 +54,11 @@ export function Comentarios() {
   //const names = comentarios.map(comentario => <li className='name' key={comentario.name}>{comentario.name}</li>)
   
     return (
-      <div className='comentarios'>
+      <div className='comentarios' id="comentarios">
+        <h2>Comentarios</h2>
+        <div className='commentsDiv'>
         {comments}
-        
+        </div>
       </div>
     )
  

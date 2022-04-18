@@ -4,8 +4,7 @@
   width: 90%;
   background-color: rgba(239, 167, 109, 0.5);
   align-items: center;
-  position:relative;
-  top: 150px;
+  padding-top: 150px;
 }
 
 .title {

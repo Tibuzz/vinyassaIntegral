@@ -3,7 +3,7 @@ import roberto from './roberto.webp';
 
 export function Roberto() {
   return (
-    <div className='roberto'>
+    <div className='roberto' id="roberto">
       <h2 className='title'>Roberto Partida</h2>
       <p>Roberto Partida(México) – Maestro de Vinyasa Yoga (E-RYT, YACEP), licenciado en Filosofía –
         Ha prácticado y estudiado con numerosos maestros por todo el mundo, probando e incorporando a su práctica diferentes estilos.

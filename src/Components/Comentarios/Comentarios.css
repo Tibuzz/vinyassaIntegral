@@ -1,5 +1,36 @@
 .comentarios {
-  position: relative;
-  top: 150px;
-  background-color: aquamarine;
+  padding-top: 150px;
+  padding-bottom: 2rem;
+  background-color: rgba(239, 167, 109, 0.5);
+  height: 650px;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.comments {
+  border-bottom: 1px solid black;
+  width: 100%;
+}
+
+.content {
+  padding: 1rem;
+}
+
+.name {
+  text-align: right;
+}
+
+.comments:last-child {
+  border-style: none ;
+}
+
+.commentsDiv {
+  overflow: scroll;
+  width: 70%;
+  /*padding: 1rem;*/
+  border: 1px solid black;
+  background-color: antiquewhite;
 }
