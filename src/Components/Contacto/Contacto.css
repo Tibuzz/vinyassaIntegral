@@ -1,21 +1,19 @@
-.agenda {
-  padding-top: 150px;
+.contacto {
   background-color: rgba(239, 167, 109, 0.5);
   width: 90%;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.agenda h2 {
-  margin-bottom: 4rem;
+.contacto img {
+  width: 30px;
 }
 
 @media only screen and (max-width: 480px) {
-  .agenda {
+  .contacto {
     padding-top: 5rem;
     width: 100%;
-  }
-
-  #ajust2, #ajust3, #group {
-    display: none;
   }
 }

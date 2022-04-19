@@ -1,5 +1,7 @@
 import './Roberto.css';
-import roberto from './roberto.webp';
+import cascade from './roberto.webp';
+import chien from '../../Photos/IMG-20220419-WA0005.jpg';
+import assis from '../../Photos/IMG-20220419-WA0010.jpg';
 
 export function Roberto() {
   return (
@@ -10,7 +12,12 @@ export function Roberto() {
         Alumno de Lygia Lima (Brasil); Sashikala (Mysore- India); María Sánchez (México).
         Su sistema de Vinyasa Yoga (integral) sintetiza la utilización de instrumentos de apoyo para una práctica precisa,
          al mismo tiempo que propone una práctica dinámica y energética.</p>
-      <img src={roberto} alt='' id='robertoCascade' />
+      <div className='images'>
+        <img src={cascade} alt='' id='cascade' />
+        <img src={chien} alt='' id='chien' />
+        <img src={assis} alt='' id='assis' />
+      </div>
     </div>
+    
   )
 }

@@ -5,6 +5,7 @@ import { VinyassaIntegral } from '../VinyassaIntegral/VinyassaIntegral';
 import { Roberto } from '../Roberto/Roberto';
 import { Agenda } from '../Agenda/Agenda';
 import { Comentarios } from '../Comentarios/Comentarios';
+import { Contacto } from '../Contacto/Contacto';
 
 import { AddComment } from '../AddComment/AddComment';
 
@@ -17,7 +18,7 @@ export default function App() {
       <Roberto />
       <Agenda />
       <Comentarios />
-     
+      <Contacto />
     </div>
   );
 }

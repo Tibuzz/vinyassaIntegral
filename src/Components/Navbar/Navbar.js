@@ -14,7 +14,7 @@ export default function Navbar() {
           <li><a href="#roberto">Sobre Roberto</a></li>
           <li><a href="#agenda">Agenda</a></li>
           <li><a href="#comentarios">Comentarios</a></li>
-          <li>Contacto</li>
+          <li><a href='#contacto'>Contacto</a></li>
         </ul>
       </nav>
     </header>

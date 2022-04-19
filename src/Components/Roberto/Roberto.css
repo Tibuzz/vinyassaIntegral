@@ -15,9 +15,20 @@
   width: 60%;
 }
 
-#robertoCascade {
-  height: auto;
-  width: 300px;
-  margin-top: 2rem;
-  margin-bottom: 3rem;
+@media only screen and (max-width: 480px) {
+  .roberto {
+    padding-top: 5rem;
+    width: 100%;
+  }
+  
+  .roberto p {
+    width: 90%;
+    padding: 2rem 2rem;
+  }
+  
+  #cascade, #chien {
+    display: none;
+  }
 }
+
+

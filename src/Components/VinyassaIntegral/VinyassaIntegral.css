@@ -11,5 +11,18 @@
 
 .vinyassaIntegral p {
   padding: 2rem 6rem;
+}
 
+@media only screen and (max-width: 480px) {
+  .vinyassaIntegral {
+    padding-top: 5rem;
+    width: 100%;
+  }
+   .vinyassaIntegral p {
+     padding: 2rem 2rem;
+   }
+
+   #pied {
+     display: none;
+   }
 }

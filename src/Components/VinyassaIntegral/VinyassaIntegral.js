@@ -1,4 +1,6 @@
 import './VinyassaIntegral.css';
+import ajust from '../../Photos/IMG-20220419-WA0000.jpg';
+import pied from '../../Photos/IMG-20220419-WA0001.jpg';
 
 export function VinyassaIntegral() {
   return (
@@ -13,6 +15,10 @@ export function VinyassaIntegral() {
         La pensamos en filosofía para sentirla con el cuerpo. Percibimos la postura desde la emoción para transformar,
         para salir del agua con algunas gemas que hemos traído desde el fondo de nosotros mismos.
       </p>
+      <div className='images'>
+        <img src={ajust} alt='' id='ajust'/>
+        <img src={pied} alt='' id='pied'/>
+      </div>
     </div>
   )
 }
