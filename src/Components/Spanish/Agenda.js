@@ -1,4 +1,5 @@
-import './Agenda.css';
+import React from 'react';
+
 import cascade from '../../Photos/IMG-20220419-WA0013.jpg';
 import bras from '../../Photos/IMG-20220419-WA0003.jpg';
 import ajust2 from '../../Photos/IMG-20220419-WA0008.jpg';

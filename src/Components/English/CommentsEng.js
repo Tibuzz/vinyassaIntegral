@@ -1,6 +1,6 @@
-import './Comentarios.css';
+import React from 'react';
 
-export function Comentarios() {
+export function CommentsEng() {
 
   const comentarios = [
     {
@@ -41,25 +41,25 @@ export function Comentarios() {
     }
   ];
 
-  const comments = comentarios.map((comentario, i) =>{ 
+  const comments = comentarios.map((comentario, i) => {
     return (
       <div className='comments' key={i}>
-       <p className='content'>{comentario.content}</p>
-       <p className='name'>{comentario.name}</p>
-      </div>
-     )
-    });
-
-     
-  //const names = comentarios.map(comentario => <li className='name' key={comentario.name}>{comentario.name}</li>)
-  
-    return (
-      <div className='comentarios' id="comentarios">
-        <h2>Comentarios</h2>
-        <div className='commentsDiv'>
-        {comments}
-        </div>
+        <p className='contenu'>{comentario.content}</p>
+        <p className='name'>{comentario.name}</p>
       </div>
     )
- 
+  });
+
+
+  //const names = comentarios.map(comentario => <li className='name' key={comentario.name}>{comentario.name}</li>)
+
+  return (
+    <div className='comentarios' id="comentarios">
+      <h2>Comments</h2>
+      <div className='commentsDiv'>
+        {comments}
+      </div>
+    </div>
+  )
+
 }

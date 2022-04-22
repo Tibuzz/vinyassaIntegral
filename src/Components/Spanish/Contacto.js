@@ -1,5 +1,5 @@
-import './Contacto.css';
-import whatsapp from './whatsapp.png';
+import React from 'react';
+import whatsapp from '../../Photos/logos/whatsapp.png';
 
 export function Contacto() {
   return (

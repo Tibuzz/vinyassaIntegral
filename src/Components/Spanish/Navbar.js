@@ -1,6 +1,7 @@
-
-import logo from './logo_vinyassa.jpg';
-import './Navbar.css';
+import React from 'react';
+import { Link } from 'react-router-dom';
+import logo from '../../Photos/logos/logo_vinyassa.jpg';
+import engFlag from '../../Photos/logos/united-states.png';
 
 export default function Navbar() {
   return (
@@ -15,6 +16,7 @@ export default function Navbar() {
           <li><a href="#agenda">Agenda</a></li>
           <li><a href="#comentarios">Comentarios</a></li>
           <li><a href='#contacto'>Contacto</a></li>
+          <li><Link to="/en"><img src={engFlag} alt='Link to english version' className='flag' title='English version'></img></Link></li>
         </ul>
       </nav>
     </header>

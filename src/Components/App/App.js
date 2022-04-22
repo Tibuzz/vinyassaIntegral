@@ -1,25 +1,32 @@
 import React from 'react';
 import './App.css';
-import Navbar from '../Navbar/Navbar';
-import { VinyassaIntegral } from '../VinyassaIntegral/VinyassaIntegral';
-import { Roberto } from '../Roberto/Roberto';
-import { Agenda } from '../Agenda/Agenda';
-import { Comentarios } from '../Comentarios/Comentarios';
-import { Contacto } from '../Contacto/Contacto';
+import { Spanish } from '../Spanish/Spanish';
+import { Routes, Route } from 'react-router-dom';
+
+import { English } from '../English/English';
+
 
 import { AddComment } from '../AddComment/AddComment';
 
 
 export default function App() {
   return (
-    <div className="App">
-      <Navbar />
-      <VinyassaIntegral />
-      <Roberto />
-      <Agenda />
-      <Comentarios />
-      <Contacto />
-    </div>
+    
+      <div className='App'>
+        <div className='content'>
+        <Routes>
+          <Route path='/en' element={<English />} />
+          <Route path='/' element={<Spanish />} />
+        </Routes>
+            
+           
+          
+          
+          
+       
+        </div>
+      </div>
+    
   );
 }
 
