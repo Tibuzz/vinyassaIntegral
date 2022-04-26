@@ -1,15 +1,21 @@
 import React from 'react';
+import { Routes, Route } from 'react-router-dom';
 
 import cascade from '../../Photos/IMG-20220419-WA0013.jpg';
 import bras from '../../Photos/IMG-20220419-WA0003.jpg';
 import ajust2 from '../../Photos/IMG-20220419-WA0008.jpg';
 import ajust3 from '../../Photos/IMG-20220419-WA0009.jpg';
 import group from '../../Photos/IMG-20220419-WA0012.jpg';
+import { AgendaTitulo } from './AgendaTitulo';
+import { AgendaTitle } from './AgendaTitle';
 
 export function Agenda() {
   return (
     <div className='agenda' id='agenda'>
-      <h2>Proximos Intensivos</h2>
+      <Routes>
+      <Route path='/' element={<AgendaTitulo />} />
+      <Route path='/en' element={<AgendaTitle />} />
+      </Routes>
       <div className='images'>
         <img src={cascade} alt='' id='cascade'/>
       </div>

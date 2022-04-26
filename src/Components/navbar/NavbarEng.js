@@ -18,9 +18,10 @@ export function NavbarEng() {
           <li><a href="#agenda">Agenda</a></li>
           <li><a href="#comentarios">Comments</a></li>
           <li><a href='#contacto'>Contact</a></li>
-          <li><Link to='/'><img src={mexFlag} alt='Link to english version' className='flag' title='English version'></img></Link></li>
+          <li><Link to='/'><img src={mexFlag} alt='Link to english version' className='flag' title='Spanish version'></img></Link></li>
         </ul>
       </nav>
+      <Link to='/' className='flagMobile'><img src={mexFlag} alt='Link to english version' className='flag' title='Spanish version'></img></Link>
     </header>
   )
 }

@@ -19,7 +19,6 @@
 .images {
   display: flex;
   flex-wrap: wrap;
-  width: 95%;
   justify-content: space-around;
 }
 
@@ -64,28 +63,6 @@
   width: auto;
 }
 
-@media only screen and (max-width: 480px) {
-  .header {
-    height: 4rem;
-    border-bottom: 1px solid black;
-    display: block;
-    text-align: center;
-  }
-
-  .logo {
-    width: 100%;
-  }
-
-  .logo img {
-    width: 7rem;
-    height: 90%;
-  }
-
-  .navbar li {
-    display: none;
-  }
-}
-
 .navbar {
   display: flex;
   width: 80%;
@@ -110,6 +87,46 @@
 
 .navbar a:hover {
   color: red;
+}
+
+.flagMobile {
+  display:none;
+}
+
+@media only screen and (max-width: 480px) {
+  .header {
+    height: 4rem;
+    border-bottom: 1px solid black;
+  }
+
+  .logo {
+    width: 100%;
+    text-align: center;
+    margin-left: 1.4rem;
+  }
+
+  .logo img {
+    width: 7rem;
+    height: 90%;
+  }
+
+  .navbar {
+    display: none;
+  }
+
+  .navbar li {
+    display: none;
+  }
+
+  .flagMobile {
+    display: block;
+  }
+
+  .flag {
+    height: 1rem;
+    width: auto;
+    margin-right: 1rem;
+  }
 }
 
 /* Vinyassa css */
@@ -213,7 +230,7 @@
   width: 100%;
 }
 
-.contenu {
+.text {
   padding: 1rem;
 }
 
@@ -249,12 +266,35 @@
   }
 }
 
+/* Add Comments */
+
+.textarea {
+  height: 10rem;
+  width: 15rem;
+  margin-top: 2rem;
+}
+
+.input {
+  width: 15rem;
+}
+ 
+#submit {
+  float: right;
+  margin-top: 1rem;
+}
+
 /* Contacto css */
 .contacto {
   text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  width: 100%;
+  background-color: rgba(0,0,0,0.6);
+}
+
+.contacto h2 {
+  color: white;
 }
 
 .contacto img {
@@ -266,4 +306,13 @@
     padding-top: 5rem;
     width: 100%;
   }
+}
+
+.logos {
+  display:flex;
+  margin: 0 auto;
+  width: 20%;
+  justify-content: space-around;
+  color: white;
+  margin-bottom: 1rem;
 }

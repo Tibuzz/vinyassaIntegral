@@ -1,6 +1,6 @@
 import React from 'react';
 
-export function Roberto() {
+export function RobertoSpa() {
   return (
     <div className='roberto' id="roberto">
       <h2 className='title'>Roberto Partida</h2>

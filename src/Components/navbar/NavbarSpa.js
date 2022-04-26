@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import logo from '../../Photos/logos/logo_vinyassa.jpg';
 import engFlag from '../../Photos/logos/united-states.png';
 
-export default function Navbar() {
+export function NavbarSpa() {
   return (
     <header className="header">
       <div className="logo">
@@ -19,6 +19,8 @@ export default function Navbar() {
           <li><Link to="/en"><img src={engFlag} alt='Link to english version' className='flag' title='English version'></img></Link></li>
         </ul>
       </nav>
+      <Link to="/en" className='flagMobile'><img src={engFlag} alt='Link to english version' className='flag' title='English version'></img></Link>
+
     </header>
   )
 }
