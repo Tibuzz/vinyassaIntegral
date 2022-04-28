@@ -17,8 +17,8 @@ export function Contact() {
       </Routes>
       <div className='logos'>
         <FontAwesomeIcon icon={faWhatsapp} size='2xl' title='Whatsapp' />
-        <FontAwesomeIcon icon={faAt} size='2xl' />
-        <FontAwesomeIcon icon={faPhoneFlip} size='2xl' />
+        <FontAwesomeIcon icon={faAt} size='2xl'title='Email' />
+        <FontAwesomeIcon icon={faPhoneFlip} size='2xl' title='Phone' />
       </div>
     </footer>
   )

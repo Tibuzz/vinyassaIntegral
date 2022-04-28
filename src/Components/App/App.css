@@ -23,12 +23,22 @@
 }
 
 .images img {
-  height: auto;
-  width: 300px;
+  height: 300px;
+  width: auto;
   margin: 2rem 1rem 3rem;
   border: 1px solid black;
   border-radius: 10%;
+  transition: transform 500ms ease;
 }
+
+.images img:hover {
+  transform: scale(1.1);
+}
+
+#imageBig {
+  height: 100%;
+}
+
 
 @media only screen and (max-width: 480px) {
   .app {
@@ -61,6 +71,7 @@
 .flag {
   height: 2rem;
   width: auto;
+  opacity: 0.7;
 }
 
 .navbar {
