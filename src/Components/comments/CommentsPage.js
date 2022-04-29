@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import { Routes, Route } from "react-router-dom";
 
 import { Comments } from "./Comments";
-import { CommentFormSpa } from "./CommentFormSpa";
-import { CommentFormEng } from "./CommentFormEng";
+//import { CommentFormSpa } from "./CommentFormSpa";
+//import { CommentFormEng } from "./CommentFormEng";
 import { CommentsTitulo } from "./CommentsTitulo";
 import { CommentsTitle } from "./CommentsTitle";
 
@@ -13,13 +13,13 @@ export function CommentsPage({comments, addComment}) {
   const [name, setName] = useState("");
   const [country, setCountry] = useState("");
 
-  const handleSubmit = (e) => {
+  /*const handleSubmit = (e) => {
     e.preventDefault();
     addComment(text, name, country);
     setText("");
     setName("");
     setCountry("");
-  }
+  }*/
 
   return (
     <div className="comentarios">
