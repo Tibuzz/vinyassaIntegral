@@ -9,11 +9,11 @@ import { CommentsTitle } from "./CommentsTitle";
 
 export function CommentsPage({comments, addComment}) {
 
-  const [text, setText] = useState("");
+  /*const [text, setText] = useState("");
   const [name, setName] = useState("");
   const [country, setCountry] = useState("");
 
-  /*const handleSubmit = (e) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
     addComment(text, name, country);
     setText("");
