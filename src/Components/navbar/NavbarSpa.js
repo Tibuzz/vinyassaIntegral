@@ -11,7 +11,7 @@ export function NavbarSpa() {
       </div>
       <nav className="navbar">
         <ul>
-          <li><a href="#vinyassa">Sobre Vinyassa Integral</a></li>
+          <li><a href="#vinyassa">Sobre Vinyasa Integral</a></li>
           <li><a href="#roberto">Sobre Roberto</a></li>
           <li><a href="#agenda">Agenda</a></li>
           <li><a href="#comentarios">Comentarios</a></li>

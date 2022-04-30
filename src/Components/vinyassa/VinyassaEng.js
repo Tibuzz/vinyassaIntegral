@@ -4,7 +4,7 @@ export function VinyassaEng() {
 
   return (
     <div className='vinyassaIntegral' id="vinyassa">
-      <h2 className='title'>Vinyassa Integral</h2>
+      <h2 className='title'>Vinyasa Integral</h2>
       <p>
         We want to imagine Vinyasa as an integral practice.
          All the practices activate sequences,

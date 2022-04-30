@@ -317,10 +317,23 @@
 .logos {
   display:flex;
   margin: 0 auto;
-  width: 20%;
+  width: 40%;
   justify-content: space-around;
-  color: white;
+  justify-items: center;
   margin-bottom: 1rem;
+  padding: 0;
+}
+
+.logos li {
+  list-style: none;
+}
+
+.logos a {
+  color: white;
+}
+
+.logos a:hover {
+  color: burlywood
 }
 
 @media only screen and (max-width: 480px) {

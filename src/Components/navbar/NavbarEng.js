@@ -13,7 +13,7 @@ export function NavbarEng() {
       </div>
       <nav className="navbar">
         <ul>
-          <li><a href="#vinyassa">About Vinyassa Integral</a></li>
+          <li><a href="#vinyassa">About Vinyasa Integral</a></li>
           <li><a href="#roberto">About Roberto</a></li>
           <li><a href="#agenda">Agenda</a></li>
           <li><a href="#comentarios">Comments</a></li>

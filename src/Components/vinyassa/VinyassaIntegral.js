@@ -3,7 +3,7 @@ import React from 'react';
 export function VinyassaIntegral() {
   return (
     <div className='vinyassaIntegral' id="vinyassa">
-      <h2 className='title'>Vinyassa Integral</h2>
+      <h2 className='title'>Vinyasa Integral</h2>
       <p>
         Queremos imaginar el Vinyasa como una práctica integral.
         Todas las prácticas accionan secuencias, pero integrar implica transitar rutas que logren conexiones más profundas con la respiración,
