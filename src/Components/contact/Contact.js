@@ -16,7 +16,7 @@ export function Contact() {
         <Route path='/en' element={<ContactTitle />} />
       </Routes>
       <ul className='logos'>
-        <li><a href='https://wa.me/393515292420' target='_blank' rel='noreferrer'><FontAwesomeIcon icon={faWhatsapp} size='2xl' title='Whatsapp: +39 351 529 2420' /></a></li>
+        <li><a href='https://api.whatsapp.com/send?phone=393515292420' target='_blank' rel='noreferrer'><FontAwesomeIcon icon={faWhatsapp} size='2xl' title='Whatsapp: +39 351 529 2420' /></a></li>
         <li><a href='mailto:roberto.partida@gmail.com?subject=Vinyasa Integral' ><FontAwesomeIcon icon={faAt} size='2xl' title='Email: roberto.partida@gmail.com' /></a></li>
         <li><a href='tel:+526646116374'><FontAwesomeIcon icon={faPhoneFlip} size='2xl' title='Phone: +52 664 611 63 74' /></a></li>
       </ul>
