@@ -248,6 +248,7 @@
 
 .name {
   text-align: right;
+  margin-right: 0.5rem;
 }
 
 .comments:last-child {
@@ -283,17 +284,22 @@
 
 .textarea {
   height: 10rem;
-  width: 15rem;
+  width: 30rem;
   margin-top: 2rem;
+  background-color: antiquewhite;
 }
 
 .input {
   width: 15rem;
+  background-color: antiquewhite;
 }
  
 #submit {
+  width: 7rem;
   float: right;
   margin-top: 1rem;
+  background-color: bisque;
+  box-shadow: 2px 2px 3px black;
 }
 
 /* Contacto css */

@@ -22,7 +22,7 @@ export function CommentsPage({comments, addComment}) {
   }
 
   return (
-    <div className="comentarios">
+    <div className="comentarios" id='comentarios'>
       <Routes>
         <Route path='/' element={<CommentsTitulo />} />
         <Route path='/en' element={<CommentsTitle />} />
